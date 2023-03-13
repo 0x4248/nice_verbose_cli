@@ -1,8 +1,9 @@
-// Nice verbose cli (main.cpp)
-// A cli version of the nice verbose c++ library
-// Github: https://www.github.com/awesomelewis2007/nice_verbose_cli
-//
-// Main entry point for the cli
+/* Nice verbose cli (main.cpp)
+ * A cli version of the nice verbose c++ library
+ * Github: https://www.github.com/awesomelewis2007/nice_verbose_cli
+ *
+ * Main entry point for the cli
+*/
 
 #include <iostream>
 
@@ -31,7 +32,6 @@ int main(int argc, char *argv[]) {
         return 0;
     }
     std::string message;
-    //from the second argument to the end
     for (int i = 2; i < argc; i++) {
         message += argv[i];
         message += " ";
