@@ -3,7 +3,7 @@
  * Github: https://www.github.com/awesomelewis2007/nice_verbose_cli
  *
  * Main entry point for the cli
-*/
+ */
 
 #include <iostream>
 
@@ -12,23 +12,45 @@
 int main(int argc, char *argv[]) {
     if (argc == 1) {
         std::cout << "Usage: nice_verbose_cli [command] [message]" << std::endl;
-        std::cout << "\t-debug [message] - Prints a debug verbose message" << std::endl;
-        std::cout << "\t-log [message] - Prints an log verbose message" << std::endl;
-        std::cout << "\t-info [message] - Prints an info verbose message" << std::endl;
-        std::cout << "\t-warn [message] - Prints a warning verbose message" << std::endl;
-        std::cout << "\t-question [message] - Prints a question verbose message" << std::endl;
-        std::cout << "\t-error [message] - Prints an error verbose message" << std::endl;
-        std::cout << "\t-critical_error [message] - Prints a critical verbose message" << std::endl;
-        std::cout << "\t-major_critical_error [message] - Prints a major critical verbose message" << std::endl;
-        std::cout << "\t-success [message] - Prints a success verbose message" << std::endl;
-        std::cout << "\t-important [message] - Prints an important verbose message" << std::endl;
-        std::cout << "\t-t_ok [message] - Prints a ok verbose message" << std::endl;
-        std::cout << "\t-t_info [message] - Prints an info verbose message" << std::endl;
-        std::cout << "\t-t_warn [message] - Prints a warning verbose message" << std::endl;
-        std::cout << "\t-t_error [message] - Prints an error verbose message" << std::endl;
-        std::cout << "\t-t_critical_error [message] - Prints a critical verbose message" << std::endl;
-        std::cout << "\t-t_major_critical_error [message] - Prints a major critical verbose message" << std::endl;
-        std::cout << "\t-t_failed [message] - Prints a failed verbose message" << std::endl;
+        std::cout << "\t-debug [message] - Prints a debug verbose message"
+                  << std::endl;
+        std::cout << "\t-log [message] - Prints an log verbose message"
+                  << std::endl;
+        std::cout << "\t-info [message] - Prints an info verbose message"
+                  << std::endl;
+        std::cout << "\t-warn [message] - Prints a warning verbose message"
+                  << std::endl;
+        std::cout << "\t-question [message] - Prints a question verbose message"
+                  << std::endl;
+        std::cout << "\t-error [message] - Prints an error verbose message"
+                  << std::endl;
+        std::cout
+            << "\t-critical_error [message] - Prints a critical verbose message"
+            << std::endl;
+        std::cout << "\t-major_critical_error [message] - Prints a major "
+                     "critical verbose message"
+                  << std::endl;
+        std::cout << "\t-success [message] - Prints a success verbose message"
+                  << std::endl;
+        std::cout
+            << "\t-important [message] - Prints an important verbose message"
+            << std::endl;
+        std::cout << "\t-t_ok [message] - Prints a ok verbose message"
+                  << std::endl;
+        std::cout << "\t-t_info [message] - Prints an info verbose message"
+                  << std::endl;
+        std::cout << "\t-t_warn [message] - Prints a warning verbose message"
+                  << std::endl;
+        std::cout << "\t-t_error [message] - Prints an error verbose message"
+                  << std::endl;
+        std::cout << "\t-t_critical_error [message] - Prints a critical "
+                     "verbose message"
+                  << std::endl;
+        std::cout << "\t-t_major_critical_error [message] - Prints a major "
+                     "critical verbose message"
+                  << std::endl;
+        std::cout << "\t-t_failed [message] - Prints a failed verbose message"
+                  << std::endl;
         return 0;
     }
     std::string message;
