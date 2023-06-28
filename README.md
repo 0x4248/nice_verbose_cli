@@ -1,7 +1,7 @@
 # Nice verbose cli
-A cli version of the [Nice verbose c++ library](https://www.github.com/awesomelewis2007/nice_verbose)
+A cli version of the [Nice verbose c++ library](https://www.github.com/lewisevans2007/nice_verbose)
 
-![Example](https://raw.githubusercontent.com/awesomelewis2007/nice_verbose_cli/master/doc/example.png)
+![Example](https://raw.githubusercontent.com/lewisevans2007/nice_verbose_cli/master/doc/example.png)
 
 ## What is nice verbose?
 Nice verbose is a c++ library that allows you to print verbose messages to the console in a nice format. The cli version of this library allows you to use the same verbose messages in your bash scripts.
