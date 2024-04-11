@@ -1,6 +1,6 @@
 /* Nice verbose cli (main.cpp)
  * A cli version of the nice verbose c++ library
- * Github: https://www.github.com/lewisevans2007/nice_verbose_cli
+ * Github: https://www.github.com/0x4248/nice_verbose_cli
  *
  * Main entry point for the cli
  */
